@@ -15,6 +15,10 @@
   </a>
 </p>
 
+## Preview
+
+![Preview](./meta/preview.png)
+
 ## Installation
 
 1. Install Stylus/Cascadea (Safari)
