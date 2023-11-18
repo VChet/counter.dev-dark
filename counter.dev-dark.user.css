@@ -1,0 +1,282 @@
+/* ==UserStyle==
+@name        counter.dev dark
+@description Dark theme for counter.dev
+@namespace   counter.dev
+@version     0.1.0
+@author      VChet
+@homepageURL https://github.com/VChet/counter.dev-dark
+@updateURL   https://raw.githubusercontent.com/VChet/counter.dev-dark/master/counter.dev-dark.user.css
+@supportURL  https://github.com/VChet/counter.dev-dark/issues
+@license     CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("counter.dev") {
+  :root {
+    --black: #000;
+    --gray-dark: #222;
+    --gray: #272727;
+    --gray-light: #303030;
+    --gray-tp: #22222280;
+    --text: #959595;
+    --light: #bbb;
+    --accent: #147efb;
+  }
+  body {
+    background-color: var(--gray-dark);
+  }
+  .footer-contacts-social a,
+  .refresh img,
+  .modal-header .btn-close,
+  .simplebar-content .visits-device,
+  .simplebar-content .visits-platform,
+  .tabs-menu .active path,
+  .responsive-tabs-menu .active path {
+    filter: invert(1);
+  }
+  .logotype,
+  .chartjs-render-monitor {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  .simplebar-scrollbar::before {
+    background-color: var(--gray-light) !important;
+  }
+  .gradient-red {
+    background: linear-gradient(142.67deg, #fecb2e4d 0%, #fc31584d 100%);
+  }
+  .gradient-green {
+    background: linear-gradient(142.67deg, #fecb2e4d 0%, #53d7694d 100%);
+  }
+  .dynamics {
+    color: var(--black);
+    filter: invert(1) brightness(80%);
+  }
+  /* begin remap-css rules */
+  body,
+  html {
+    color: var(--light);
+  }
+  .white {
+    color: var(--black);
+  }
+  .black {
+    color: var(--light);
+  }
+  .gray {
+    color: var(--text);
+  }
+  .bg-gray {
+    background-color: var(--gray);
+  }
+  .bg-white {
+    background-color: var(--gray-dark);
+  }
+  .bg-blue {
+    background-color: var(--gray);
+  }
+  ::selection {
+    background-color: var(--gray);
+  }
+  .shadow-lg {
+    box-shadow: 0 24px 24px var(--gray-tp);
+  }
+  .btn-primary,
+  .btn-primary:active,
+  .btn-primary:hover {
+    color: var(--black);
+  }
+  .btn-secondary {
+    background:
+      linear-gradient(var(--gray-dark), var(--gray-dark)) padding-box,
+      linear-gradient(123.18deg, #0ff 0%, #147efb 48.17%) border-box;
+  }
+  .btn-white {
+    background-color: var(--gray-dark);
+  }
+  input[type="date"],
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  textarea {
+    background-color: var(--gray-dark);
+    border-color: var(--gray-light);
+    color: var(--light);
+  }
+  input[type="email"]:hover,
+  input[type="password"]:hover,
+  input[type="text"]:hover,
+  textarea:hover {
+    border-color: var(--gray);
+  }
+  input[type="email"]:disabled,
+  input[type="password"]:disabled,
+  input[type="text"]:disabled,
+  textarea:disabled {
+    border-color: var(--gray-light);
+    color: var(--text);
+  }
+  select {
+    border-color: var(--gray-light);
+    color: var(--light);
+    background-color: var(--gray-dark);
+  }
+  select:hover {
+    border-color: var(--gray);
+  }
+  .responsive-tabs-menu a,
+  .tabs-menu a {
+    color: var(--text);
+  }
+  .responsive-tabs-menu .active,
+  .responsive-tabs-menu .active a,
+  .tabs-menu .active,
+  .tabs-menu .active a {
+    color: var(--light);
+  }
+  .modal-header {
+    background-color: var(--gray-dark);
+  }
+  .accordion-title {
+    box-shadow: 0 1px 0 var(--gray-light);
+  }
+  .notification {
+    background-color: var(--gray);
+  }
+  .navbar {
+    background-color: var(--gray-dark);
+  }
+  nav a {
+    color: var(--light);
+  }
+  .profile-guest {
+    box-shadow: -1px 0 0 var(--gray-light);
+  }
+  .dropdown-content,
+  .profile-user {
+    background-color: var(--gray-dark);
+  }
+  .dropdown-content {
+    border-color: var(--gray-light);
+  }
+  .dropdown-content a {
+    box-shadow: 0 1px 0 var(--gray-light);
+  }
+  .dropdown:hover .profile-user {
+    box-shadow: -1px 0 0 var(--gray-light);
+    background-color: var(--gray);
+  }
+  .hamburger-content {
+    background-color: var(--gray-dark);
+  }
+  .owl-theme .owl-nav [class*="owl-"],
+  .owl-theme .owl-nav [class*="owl-"]:hover {
+    color: var(--black);
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    background-color: var(--gray-dark);
+    border-color: var(--gray-light);
+  }
+  .donate-wrap,
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: var(--gray-dark);
+  }
+  .donate-wrap {
+    box-shadow:
+      -1px 0 0 #147efb,
+      0 24px 24px var(--gray-tp);
+  }
+  .donate-icon {
+    box-shadow: 1px 0 0 var(--gray-light);
+  }
+  .footer {
+    background-color: var(--gray);
+  }
+  .delete-account {
+    box-shadow: 0 -1px 0 var(--gray-light);
+  }
+  .blog-article:hover {
+    box-shadow: 0 24px 24px var(--gray-tp);
+  }
+  .blog-article-content-info {
+    box-shadow: 0 -1px 0 var(--gray-light);
+  }
+  .posts-list a {
+    color: var(--light);
+    box-shadow: inset 0 -1px 0 var(--gray-light);
+  }
+  .blog-full-text p {
+    color: var(--text);
+  }
+  .markdown-body {
+    color: var(--light);
+  }
+  .markdown-body .bg-white {
+    background-color: var(--gray-dark) !important;
+  }
+  .markdown-body .pl-mb,
+  .markdown-body .pl-mi,
+  .markdown-body .pl-s .pl-s1,
+  .markdown-body .pl-smi {
+    color: var(--light);
+  }
+  .markdown-body img,
+  .markdown-body table tr {
+    background-color: var(--gray-dark);
+  }
+  .markdown-body .blob-code-inner {
+    color: var(--light);
+  }
+  .settings .content {
+    box-shadow: 0 -1px 0 var(--gray-light);
+  }
+  .categories {
+    background-color: var(--gray);
+  }
+  .category {
+    box-shadow: 1px 0 0 var(--gray-light);
+  }
+  .graph {
+    background: linear-gradient(180deg, var(--gray) 64px, var(--gray-dark) 0);
+  }
+  .graph .content {
+    background-color: var(--gray-dark);
+  }
+  .metrics-one .content {
+    border-color: var(--gray-light);
+  }
+  .sources-countries-item {
+    background-color: var(--gray-dark);
+  }
+  .percent-line {
+    border-left-color: var(--gray-dark);
+    border-right-color: var(--gray-dark);
+    background-color: var(--accent);
+  }
+  .hour-item,
+  .metrics-three-data-content-item {
+    box-shadow: 0 1px 0 var(--gray-light);
+  }
+  @media (max-width: 1110px) {
+    .metrics-one {
+      background-color: var(--gray);
+    }
+  }
+  [tooltip]::after {
+    color: var(--text);
+    background-color: var(--gray-dark);
+  }
+  [tooltip]:not([flow])::before,
+  [tooltip][flow^="up"]::before {
+    border-top-color: var(--gray-dark);
+  }
+  [tooltip][flow^="down"]::before {
+    border-bottom-color: var(--gray-dark);
+  }
+  [tooltip][flow^="right"]::before {
+    border-right-color: var(--gray-dark);
+  }
+  .modal,
+  .modal-spinner > div {
+    background-color: var(--gray-dark);
+  }
+  /* end remap-css rules */
+}
