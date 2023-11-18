@@ -274,6 +274,18 @@
   [tooltip][flow^="right"]::before {
     border-right-color: var(--gray-dark);
   }
+  .benefits-item {
+    background-color: var(--gray-dark);
+    box-shadow:
+      -1px 0 0 #147efb,
+      0 24px 24px var(--gray-tp);
+  }
+  .benefits-item-icon {
+    box-shadow: 1px 0 0 var(--gray-light);
+  }
+  .features-item-description {
+    box-shadow: inset 0 0 0 1px var(--gray-light);
+  }
   .modal,
   .modal-spinner > div {
     background-color: var(--gray-dark);
