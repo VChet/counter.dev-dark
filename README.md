@@ -4,8 +4,8 @@
   <a href="https://github.com/VChet/counter.dev-dark/tags">
     <img src="https://img.shields.io/github/tag/VChet/counter.dev-dark.svg?label=version" alt="Version">
   </a>
-  <a href="https://github.com/VChet/counter.dev-dark/actions?query=workflow%3Astylelint">
-    <img src="https://github.com/VChet/counter.dev-dark/workflows/stylelint/badge.svg?branch=master" alt="stylelint">
+  <a href="https://github.com/VChet/counter.dev-dark/actions/workflows/lint.yml">
+    <img src="https://github.com/VChet/counter.dev-dark/actions/workflows/lint.yml/badge.svg" alt="stylelint">
   </a>
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome">
