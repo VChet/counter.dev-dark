@@ -37,6 +37,10 @@
   .features-item-pic {
     opacity: 0.8;
   }
+  input:-webkit-autofill {
+    -webkit-text-fill-color: var(--text);
+    box-shadow: 0 0 0 50px var(--gray-dark) inset;
+  }
   .footer-contacts-social a,
   .refresh img,
   .modal-header .btn-close,
