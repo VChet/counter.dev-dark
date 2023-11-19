@@ -32,6 +32,11 @@
   .gradient-green {
     background: linear-gradient(142.67deg, transparent, #53d7694d);
   }
+  .hero,
+  .benefits-pic,
+  .features-item-pic {
+    opacity: 0.8;
+  }
   .footer-contacts-social a,
   .refresh img,
   .modal-header .btn-close,
