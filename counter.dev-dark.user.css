@@ -39,7 +39,7 @@
   }
   input:-webkit-autofill {
     -webkit-text-fill-color: var(--text);
-    box-shadow: 0 0 0 50px var(--gray-dark) inset;
+    box-shadow: 0 0 0 50px var(--gray-dark) inset !important;
   }
   .footer-contacts-social a,
   .refresh img,
@@ -98,8 +98,13 @@
     border-right-color: var(--gray-dark);
     background-color: var(--accent);
   }
-  .hour-item,
   .metrics-three-data-content-item {
+    box-shadow: 0 1px 0 var(--gray-light);
+  }
+  .metrics-three-data-footer {
+    box-shadow: 0 -2px 2px var(--gray);
+  }
+  .hour-item {
     box-shadow: 0 1px 0 var(--gray-light);
   }
   @media (max-width: 1110px) {
@@ -175,6 +180,9 @@
   ::selection {
     background-color: var(--gray);
   }
+  .shadow-sm {
+    box-shadow: 0 2px 2px var(--gray);
+  }
   .shadow-lg {
     box-shadow: 0 24px 24px var(--gray-tp);
   }
@@ -190,6 +198,7 @@
   }
   .btn-white {
     background-color: var(--gray-dark);
+    box-shadow: 0 2px 2px var(--gray);
   }
   input[type="date"],
   input[type="email"],
@@ -198,6 +207,7 @@
   textarea {
     background-color: var(--gray-dark);
     border-color: var(--gray-light);
+    box-shadow: 0 2px 2px var(--gray);
     color: var(--light);
   }
   input[type="email"]:hover,
@@ -215,6 +225,7 @@
   }
   select {
     border-color: var(--gray-light);
+    box-shadow: 0 2px 2px var(--gray);
     color: var(--light);
     background-color: var(--gray-dark);
   }
@@ -233,6 +244,7 @@
   }
   .modal-header {
     background-color: var(--gray-dark);
+    box-shadow: 0 3px 3px var(--gray);
   }
   .accordion-title {
     box-shadow: 0 1px 0 var(--gray-light);
@@ -242,6 +254,7 @@
   }
   .navbar {
     background-color: var(--gray-dark);
+    box-shadow: 0 3px 3px var(--gray);
   }
   nav a {
     color: var(--light);
@@ -249,12 +262,18 @@
   .profile-guest {
     box-shadow: -1px 0 0 var(--gray-light);
   }
+  .profile-user {
+    box-shadow:
+      -1px 0 0 #147efb,
+      0 2px 2px var(--gray);
+  }
   .dropdown-content,
   .profile-user {
     background-color: var(--gray-dark);
   }
   .dropdown-content {
     border-color: var(--gray-light);
+    box-shadow: 0 2px 2px var(--gray);
   }
   .dropdown-content a {
     box-shadow: 0 1px 0 var(--gray-light);
@@ -273,6 +292,7 @@
   .owl-theme .owl-dots .owl-dot span {
     background-color: var(--gray-dark);
     border-color: var(--gray-light);
+    box-shadow: 0 2px 2px var(--gray);
   }
   .donate-wrap,
   .owl-theme .owl-dots .owl-dot.active span,
@@ -295,6 +315,11 @@
   }
   .welcome {
     background: linear-gradient(90deg, var(--gray-dark) 50%, #147efb 50%);
+  }
+  .welcome-features-item {
+    box-shadow:
+      -1px 0 0 #147efb,
+      0 2px 2px var(--gray);
   }
   .modal,
   .modal-spinner > div {
