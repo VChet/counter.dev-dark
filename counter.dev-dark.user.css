@@ -23,6 +23,15 @@
   body {
     background-color: var(--gray-dark);
   }
+  .simplebar-scrollbar::before {
+    background-color: var(--gray-light) !important;
+  }
+  .gradient-red {
+    background: linear-gradient(142.67deg, transparent, #fc31584d);
+  }
+  .gradient-green {
+    background: linear-gradient(142.67deg, transparent, #53d7694d);
+  }
   .footer-contacts-social a,
   .refresh img,
   .modal-header .btn-close,
@@ -35,15 +44,6 @@
   .logotype,
   .chartjs-render-monitor {
     filter: invert(1) hue-rotate(180deg);
-  }
-  .simplebar-scrollbar::before {
-    background-color: var(--gray-light) !important;
-  }
-  .gradient-red {
-    background: linear-gradient(142.67deg, #fecb2e4d 0%, #fc31584d 100%);
-  }
-  .gradient-green {
-    background: linear-gradient(142.67deg, #fecb2e4d 0%, #53d7694d 100%);
   }
   .dynamics {
     color: var(--black);
