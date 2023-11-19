@@ -55,6 +55,97 @@
     filter: invert(1) brightness(80%);
   }
   /* begin remap-css rules */
+  .blog-article:hover {
+    box-shadow: 0 24px 24px var(--gray-tp);
+  }
+  .blog-article-content-info {
+    box-shadow: 0 -1px 0 var(--gray-light);
+  }
+  .posts-list a {
+    color: var(--light);
+    box-shadow: inset 0 -1px 0 var(--gray-light);
+  }
+  .blog-full-text p {
+    color: var(--text);
+  }
+  .settings .content {
+    box-shadow: 0 -1px 0 var(--gray-light);
+  }
+  .categories {
+    background-color: var(--gray);
+  }
+  .category {
+    box-shadow: 1px 0 0 var(--gray-light);
+  }
+  .graph {
+    background: linear-gradient(180deg, var(--gray) 64px, var(--gray-dark) 0);
+  }
+  .graph .content {
+    background-color: var(--gray-dark);
+  }
+  .metrics-one .content {
+    border-color: var(--gray-light);
+  }
+  .sources-countries-item {
+    background-color: var(--gray-dark);
+  }
+  .percent-line {
+    border-left-color: var(--gray-dark);
+    border-right-color: var(--gray-dark);
+    background-color: var(--accent);
+  }
+  .hour-item,
+  .metrics-three-data-content-item {
+    box-shadow: 0 1px 0 var(--gray-light);
+  }
+  @media (max-width: 1110px) {
+    .metrics-one {
+      background-color: var(--gray);
+    }
+  }
+  [tooltip]::after {
+    color: var(--text);
+    background-color: var(--gray-dark);
+  }
+  [tooltip]:not([flow])::before,
+  [tooltip][flow^="up"]::before {
+    border-top-color: var(--gray-dark);
+  }
+  [tooltip][flow^="down"]::before {
+    border-bottom-color: var(--gray-dark);
+  }
+  [tooltip][flow^="right"]::before {
+    border-right-color: var(--gray-dark);
+  }
+  .benefits-item {
+    background-color: var(--gray-dark);
+    box-shadow:
+      -1px 0 0 #147efb,
+      0 24px 24px var(--gray-tp);
+  }
+  .benefits-item-icon {
+    box-shadow: 1px 0 0 var(--gray-light);
+  }
+  .features-item-description {
+    box-shadow: inset 0 0 0 1px var(--gray-light);
+  }
+  .markdown-body {
+    color: var(--light);
+  }
+  .markdown-body .bg-white {
+    background-color: var(--gray-dark) !important;
+  }
+  .markdown-body .pl-mb,
+  .markdown-body .pl-mi,
+  .markdown-body .pl-s .pl-s1,
+  .markdown-body .pl-smi {
+    color: var(--light);
+  }
+  .markdown-body img,
+  .markdown-body table tr {
+    background-color: var(--gray-dark);
+  }
+  .markdown-body .blob-code-inner,
   body,
   html {
     color: var(--light);
@@ -198,98 +289,8 @@
   .delete-account {
     box-shadow: 0 -1px 0 var(--gray-light);
   }
-  .blog-article:hover {
-    box-shadow: 0 24px 24px var(--gray-tp);
-  }
-  .blog-article-content-info {
-    box-shadow: 0 -1px 0 var(--gray-light);
-  }
-  .posts-list a {
-    color: var(--light);
-    box-shadow: inset 0 -1px 0 var(--gray-light);
-  }
-  .blog-full-text p {
-    color: var(--text);
-  }
-  .markdown-body {
-    color: var(--light);
-  }
-  .markdown-body .bg-white {
-    background-color: var(--gray-dark) !important;
-  }
-  .markdown-body .pl-mb,
-  .markdown-body .pl-mi,
-  .markdown-body .pl-s .pl-s1,
-  .markdown-body .pl-smi {
-    color: var(--light);
-  }
-  .markdown-body img,
-  .markdown-body table tr {
-    background-color: var(--gray-dark);
-  }
-  .markdown-body .blob-code-inner {
-    color: var(--light);
-  }
-  .settings .content {
-    box-shadow: 0 -1px 0 var(--gray-light);
-  }
-  .categories {
-    background-color: var(--gray);
-  }
-  .category {
-    box-shadow: 1px 0 0 var(--gray-light);
-  }
-  .graph {
-    background: linear-gradient(180deg, var(--gray) 64px, var(--gray-dark) 0);
-  }
-  .graph .content {
-    background-color: var(--gray-dark);
-  }
-  .metrics-one .content {
-    border-color: var(--gray-light);
-  }
-  .sources-countries-item {
-    background-color: var(--gray-dark);
-  }
-  .percent-line {
-    border-left-color: var(--gray-dark);
-    border-right-color: var(--gray-dark);
-    background-color: var(--accent);
-  }
-  .hour-item,
-  .metrics-three-data-content-item {
-    box-shadow: 0 1px 0 var(--gray-light);
-  }
-  @media (max-width: 1110px) {
-    .metrics-one {
-      background-color: var(--gray);
-    }
-  }
-  [tooltip]::after {
-    color: var(--text);
-    background-color: var(--gray-dark);
-  }
-  [tooltip]:not([flow])::before,
-  [tooltip][flow^="up"]::before {
-    border-top-color: var(--gray-dark);
-  }
-  [tooltip][flow^="down"]::before {
-    border-bottom-color: var(--gray-dark);
-  }
-  [tooltip][flow^="right"]::before {
-    border-right-color: var(--gray-dark);
-  }
-  .benefits-item {
-    background-color: var(--gray-dark);
-    box-shadow:
-      -1px 0 0 #147efb,
-      0 24px 24px var(--gray-tp);
-  }
-  .benefits-item-icon {
-    box-shadow: 1px 0 0 var(--gray-light);
-  }
-  .features-item-description {
-    box-shadow: inset 0 0 0 1px var(--gray-light);
+  .welcome {
+    background: linear-gradient(90deg, var(--gray-dark) 50%, #147efb 50%);
   }
   .modal,
   .modal-spinner > div {

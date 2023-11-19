@@ -33,11 +33,12 @@ const mappings = {
 };
 
 const sources = [
-  { url: "https://counter.dev/css/styles.css" },
   { url: "https://counter.dev/css/blog.css" },
-  { url: "https://counter.dev/css/markdown.css" },
   { url: "https://counter.dev/css/dashboard.css" },
   { url: "https://counter.dev/css/landing.css" },
+  { url: "https://counter.dev/css/markdown.css" },
+  { url: "https://counter.dev/css/styles.css" },
+  { url: "https://counter.dev/css/welcome.css" },
   { url: "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.2/jquery.modal.min.css" }
 ];
 const ignoreSelectors = [/\spre$/, /^table$/];
