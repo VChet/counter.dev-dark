@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - "counter.dev-dark.user.css"
+      - counter.dev-dark.user.css
   pull_request:
 
 jobs:

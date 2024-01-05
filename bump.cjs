@@ -1,8 +1,9 @@
-const path = require("path");
-const { readdirSync, readFileSync, writeFileSync } = require("fs");
-const { execSync } = require("child_process");
+const path = require("node:path");
+const process = require("node:process");
+const { readdirSync, readFileSync, writeFileSync } = require("node:fs");
+const { execSync } = require("node:child_process");
 
-const files = readdirSync(__dirname).filter(filename => filename.endsWith(".user.css"));
+const files = readdirSync(__dirname).filter((filename) => filename.endsWith(".user.css"));
 for (const filename of files) {
   const filepath = path.join(__dirname, filename);
   const contents = readFileSync(filepath, "utf8");

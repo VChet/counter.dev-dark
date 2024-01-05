@@ -1,11 +1,11 @@
 {
   "name": "counter.dev-dark",
+  "type": "module",
   "version": "0.3.0",
   "description": "Dark theme for counter.dev",
   "author": "VChet",
   "license": "CC-BY-SA-4.0",
   "homepage": "https://github.com/VChet/counter.dev-dark#readme",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VChet/counter.dev-dark.git"
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "version": "node bump.cjs",
-    "lint:js": "eslint **/*.js",
+    "lint:js": "eslint .",
     "lint:js:fix": "npm run lint:js -- --fix",
     "lint:css": "stylelint **/*.css",
     "lint:css:fix": "npm run lint:css -- --fix",
@@ -23,13 +23,13 @@
     "generate": "node generate.js"
   },
   "devDependencies": {
-    "eslint": "^8.54.0",
-    "eslint-config-standard": "^17.1.0",
+    "@antfu/eslint-config": "^2.6.1",
+    "eslint": "^8.56.0",
     "fetch-css": "^4.1.1",
-    "prettier": "^3.1.0",
+    "prettier": "^3.1.1",
     "remap-css": "^7.0.3",
-    "stylelint": "^15.11.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-prettier": "^4.0.2"
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-prettier": "^5.0.0"
   }
 }

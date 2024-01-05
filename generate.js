@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 "use strict";
 
+import url from "node:url";
+import { join } from "node:path";
+import { readFile, writeFile } from "node:fs/promises";
+import process from "node:process";
 import fetchCss from "fetch-css";
 import remapCss from "remap-css";
 import stylelint from "stylelint";
-import url from "url";
-import { join } from "path";
-import { readFile, writeFile } from "fs/promises";
 
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
@@ -66,8 +67,8 @@ async function main() {
   const remapReg = /.*begin remap-css[\s\S]+end remap-css.*/;
   let sourceCss = await readFile(SOURCE_FILE, "utf8");
   sourceCss = sourceCss.replace(remapReg, generatedCss);
-  const { output } = await stylelint.lint({ code: sourceCss, fix: true });
-  return writeFile(SOURCE_FILE, output);
+  const { code } = await stylelint.lint({ code: sourceCss, fix: true });
+  return writeFile(SOURCE_FILE, code);
 }
 
 main().then(exit).catch(exit);
