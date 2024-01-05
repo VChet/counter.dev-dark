@@ -2,7 +2,7 @@
 @name        counter.dev dark
 @description Dark theme for counter.dev
 @namespace   counter.dev
-@version     0.3.0
+@version     0.4.0
 @author      VChet
 @homepageURL https://github.com/VChet/counter.dev-dark
 @updateURL   https://raw.githubusercontent.com/VChet/counter.dev-dark/master/counter.dev-dark.user.css
@@ -320,6 +320,22 @@
     box-shadow:
       -1px 0 0 #147efb,
       0 2px 2px var(--gray);
+  }
+  #modal-pwyw .highlight + div + div label,
+  #modal-pwyw .highlight + div label,
+  #modal-pwyw .highlight label {
+    color: var(--light) !important;
+  }
+  #modal-pwyw .highlight,
+  #modal-pwyw .highlight + div,
+  #modal-pwyw .highlight + div + div {
+    background-color: var(--gray);
+  }
+  #modal-pwyw .hilighted {
+    color: var(--light);
+  }
+  #modal-pwyw .plans label {
+    color: var(--text);
   }
   .modal,
   .modal-spinner > div {
