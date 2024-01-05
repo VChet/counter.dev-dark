@@ -20,6 +20,8 @@ const mappings = {
   // Color
   "color: #fff": "color: var(--black)",
   "color: #616161": "color: var(--text)",
+  "color: rgba(0,0,0,.65)": "color: var(--text)",
+  "color: #000": "color: var(--light)",
   "color: #121212": "color: var(--light)",
   "color: #24292e": "color: var(--light)",
   // Borders
@@ -41,6 +43,7 @@ const sources = [
   { url: "https://counter.dev/css/markdown.css" },
   { url: "https://counter.dev/css/styles.css" },
   { url: "https://counter.dev/css/welcome.css" },
+  { url: "https://counter.dev/css/pwyw.css" },
   { url: "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.2/jquery.modal.min.css" }
 ];
 const ignoreSelectors = [/\spre$/, /^table$/];
