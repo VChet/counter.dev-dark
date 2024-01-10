@@ -27,7 +27,6 @@
     "@antfu/eslint-config": "^2.6.1",
     "eslint": "^8.56.0",
     "fetch-css": "^4.1.1",
-    "prettier": "^3.1.1",
     "remap-css": "^7.0.3",
     "stylelint": "^16.1.0",
     "stylelint-config-standard": "^36.0.0",
