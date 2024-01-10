@@ -24,7 +24,7 @@
     "version": "node bump.cjs"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.1",
+    "@antfu/eslint-config": "^2.6.2",
     "eslint": "^8.56.0",
     "fetch-css": "^4.1.1",
     "remap-css": "^7.0.3",
