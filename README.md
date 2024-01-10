@@ -1,19 +1,8 @@
 # counter.dev dark
 
-<p align="center">
-  <a href="https://github.com/VChet/counter.dev-dark/tags">
-    <img src="https://img.shields.io/github/tag/VChet/counter.dev-dark.svg?label=version" alt="Version">
-  </a>
-  <a href="https://github.com/VChet/counter.dev-dark/actions/workflows/lint.yml">
-    <img src="https://github.com/VChet/counter.dev-dark/actions/workflows/lint.yml/badge.svg" alt="stylelint">
-  </a>
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome">
-  </a>
-  <a href="https://github.com/VChet/counter.dev-dark/raw/master/counter.dev-dark.user.css">
-    <img src="https://img.shields.io/badge/Install%20with-Stylus-00adad.svg" alt="Install directly with Stylus">
-  </a>
-</p>
+[![version](https://img.shields.io/github/tag/VChet/counter.dev-dark.svg?label=version)](https://github.com/VChet/counter.dev-dark/tags)
+[![lint](https://github.com/VChet/counter.dev-dark/actions/workflows/lint.yml/badge.svg)](https://github.com/VChet/counter.dev-dark/actions/workflows/lint.yml)
+[![install](https://img.shields.io/badge/Install%20with-Stylus-00adad.svg)](https://github.com/VChet/counter.dev-dark/raw/master/counter.dev-dark.user.css)
 
 ## Preview
 
@@ -22,10 +11,10 @@
 ## Installation
 
 1. Install Stylus/Cascadea (Safari)
-   - [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_16x16.png" /> Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-   - [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_16x16.png" /> Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-   - [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_16x16.png" /> Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
-   - [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_16x16.png" /> Safari](https://cascadea.app/)
+   - ![chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_16x16.png) [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+   - ![firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_16x16.png) [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+   - ![opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_16x16.png) [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
+   - ![safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_16x16.png) [Safari](https://cascadea.app/)
 1. [Install UserCSS](https://github.com/VChet/counter.dev-dark/raw/master/counter.dev-dark.user.css)
 
 ## Contribute
