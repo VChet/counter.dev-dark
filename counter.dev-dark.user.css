@@ -51,6 +51,7 @@
     filter: invert(1);
   }
   .logotype,
+  .graph-dot-ellipse,
   .chartjs-render-monitor {
     filter: invert(1) hue-rotate(180deg);
   }
