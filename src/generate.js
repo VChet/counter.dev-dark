@@ -1,15 +1,12 @@
-#!/usr/bin/env node
-"use strict";
-
-import url from "node:url";
-import { join } from "node:path";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
 import { readFile, writeFile } from "node:fs/promises";
 import process from "node:process";
 import fetchCss from "fetch-css";
 import remapCss from "remap-css";
 import stylelint from "stylelint";
 
-const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const mappings = {
   // Background
