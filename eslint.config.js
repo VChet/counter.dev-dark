@@ -1,19 +1,23 @@
-import antfu from "@antfu/eslint-config";
+import standard from "eslint-config-standard";
+import { FlatCompat } from "@eslint/eslintrc";
 
-export default antfu({
-  vue: false,
-  typescript: false,
-  rules: {
-    "no-console": "off",
-    "style/arrow-parens": ["error", "always"],
-    "style/brace-style": ["error", "1tbs"],
-    "style/comma-dangle": ["error", "never"],
-    "style/max-statements-per-line": "off",
-    "style/operator-linebreak": ["error", "after"],
-    "style/quotes": ["error", "double"],
-    "style/semi": ["error", "always"],
-    "antfu/if-newline": "off",
-    "ts/consistent-type-definitions": "off",
-    "yaml/quotes": ["error", { prefer: "double" }]
+const compat = new FlatCompat();
+
+export default [
+  {
+    files: ["**/*.{js,cjs}"],
+    languageOptions: {
+      parserOptions: { ecmaVersion: "latest" }
+    }
+  },
+  ...compat.config(standard),
+  {
+    rules: {
+      "max-len": ["warn", { code: 120 }],
+      "no-console": "off",
+      quotes: ["error", "double"],
+      semi: ["error", "always"],
+      "space-before-function-paren": ["error", "never"]
+    }
   }
-});
+];
