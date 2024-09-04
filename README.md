@@ -24,9 +24,10 @@ Anyone and everyone is welcome to [contribute](https://github.com/VChet/counter.
 
 1. [Fork](https://github.com/VChet/counter.dev-dark/fork) and download this repository
 1. Install [Node.js](https://nodejs.org/)
-1. Install all dependencies using `npm install`
+1. Install [pnpm](https://pnpm.io/) `npm i pnpm -g`
+1. Install all dependencies using `pnpm install`
 1. Change [mappings](generate.js)
-1. Generate style with `npm run generate`
+1. Generate style with `pnpm run build`
 1. Make additional changes in [main style](./src/counter.dev-dark.user.css) if needed
 1. Commit and push your changes
 1. Make a pull request
