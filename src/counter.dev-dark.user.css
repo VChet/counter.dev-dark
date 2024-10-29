@@ -60,9 +60,6 @@
     filter: invert(1) brightness(80%);
   }
   /* begin remap-css rules */
-  .blog-article:hover {
-    box-shadow: 0 24px 24px var(--gray-tp);
-  }
   .blog-article-content-info {
     box-shadow: 0 -1px 0 var(--gray-light);
   }
@@ -316,11 +313,6 @@
   }
   .welcome {
     background: linear-gradient(90deg, var(--gray-dark) 50%, #147efb 50%);
-  }
-  .welcome-features-item {
-    box-shadow:
-      -1px 0 0 #147efb,
-      0 2px 2px var(--gray);
   }
   #modal-pwyw .highlight + div + div label,
   #modal-pwyw .highlight + div label,
