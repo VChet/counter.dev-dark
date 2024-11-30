@@ -2,7 +2,7 @@
 @name        counter.dev dark
 @description Dark theme for counter.dev
 @namespace   counter.dev
-@version     0.4.3
+@version     0.4.4
 @author      VChet
 @homepageURL https://github.com/VChet/counter.dev-dark
 @updateURL   https://github.com/VChet/counter.dev-dark/raw/master/src/counter.dev-dark.user.css
@@ -96,13 +96,8 @@
     border-right-color: var(--gray-dark);
     background-color: var(--accent);
   }
+  .hour-item,
   .metrics-three-data-content-item {
-    box-shadow: 0 1px 0 var(--gray-light);
-  }
-  .metrics-three-data-footer {
-    box-shadow: 0 -2px 2px var(--gray);
-  }
-  .hour-item {
     box-shadow: 0 1px 0 var(--gray-light);
   }
   @media (max-width: 1110px) {
