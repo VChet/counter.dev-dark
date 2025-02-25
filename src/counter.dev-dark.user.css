@@ -2,7 +2,7 @@
 @name        counter.dev dark
 @description Dark theme for counter.dev
 @namespace   counter.dev
-@version     0.4.4
+@version     0.4.5
 @author      VChet
 @homepageURL https://github.com/VChet/counter.dev-dark
 @updateURL   https://github.com/VChet/counter.dev-dark/raw/master/src/counter.dev-dark.user.css
@@ -121,9 +121,6 @@
   }
   .benefits-item {
     background-color: var(--gray-dark);
-    box-shadow:
-      -1px 0 0 #147efb,
-      0 24px 24px var(--gray-tp);
   }
   .benefits-item-icon {
     box-shadow: 1px 0 0 var(--gray-light);
@@ -173,12 +170,6 @@
   ::selection {
     background-color: var(--gray);
   }
-  .shadow-sm {
-    box-shadow: 0 2px 2px var(--gray);
-  }
-  .shadow-lg {
-    box-shadow: 0 24px 24px var(--gray-tp);
-  }
   .btn-primary,
   .btn-primary:active,
   .btn-primary:hover {
@@ -191,7 +182,6 @@
   }
   .btn-white {
     background-color: var(--gray-dark);
-    box-shadow: 0 2px 2px var(--gray);
   }
   input[type="date"],
   input[type="email"],
@@ -200,7 +190,6 @@
   textarea {
     background-color: var(--gray-dark);
     border-color: var(--gray-light);
-    box-shadow: 0 2px 2px var(--gray);
     color: var(--light);
   }
   input[type="email"]:hover,
@@ -218,7 +207,6 @@
   }
   select {
     border-color: var(--gray-light);
-    box-shadow: 0 2px 2px var(--gray);
     color: var(--light);
     background-color: var(--gray-dark);
   }
@@ -237,7 +225,6 @@
   }
   .modal-header {
     background-color: var(--gray-dark);
-    box-shadow: 0 3px 3px var(--gray);
   }
   .accordion-title {
     box-shadow: 0 1px 0 var(--gray-light);
@@ -247,7 +234,6 @@
   }
   .navbar {
     background-color: var(--gray-dark);
-    box-shadow: 0 3px 3px var(--gray);
   }
   nav a {
     color: var(--light);
@@ -255,18 +241,12 @@
   .profile-guest {
     box-shadow: -1px 0 0 var(--gray-light);
   }
-  .profile-user {
-    box-shadow:
-      -1px 0 0 #147efb,
-      0 2px 2px var(--gray);
-  }
   .dropdown-content,
   .profile-user {
     background-color: var(--gray-dark);
   }
   .dropdown-content {
     border-color: var(--gray-light);
-    box-shadow: 0 2px 2px var(--gray);
   }
   .dropdown-content a {
     box-shadow: 0 1px 0 var(--gray-light);
@@ -283,19 +263,13 @@
     color: var(--black);
   }
   .owl-theme .owl-dots .owl-dot span {
-    background-color: var(--gray-dark);
     border-color: var(--gray-light);
-    box-shadow: 0 2px 2px var(--gray);
   }
   .donate-wrap,
+  .owl-theme .owl-dots .owl-dot span,
   .owl-theme .owl-dots .owl-dot.active span,
   .owl-theme .owl-dots .owl-dot:hover span {
     background-color: var(--gray-dark);
-  }
-  .donate-wrap {
-    box-shadow:
-      -1px 0 0 #147efb,
-      0 24px 24px var(--gray-tp);
   }
   .donate-icon {
     box-shadow: 1px 0 0 var(--gray-light);
@@ -309,18 +283,10 @@
   .welcome {
     background: linear-gradient(90deg, var(--gray-dark) 50%, #147efb 50%);
   }
-  #modal-pwyw .highlight + div + div label,
-  #modal-pwyw .highlight + div label,
-  #modal-pwyw .highlight label {
-    color: var(--light) !important;
-  }
   #modal-pwyw .highlight,
   #modal-pwyw .highlight + div,
   #modal-pwyw .highlight + div + div {
     background-color: var(--gray);
-  }
-  #modal-pwyw .hilighted {
-    color: var(--light);
   }
   #modal-pwyw .plans label {
     color: var(--text);
