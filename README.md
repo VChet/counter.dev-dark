@@ -1,8 +1,9 @@
 # counter.dev dark
 
-[![version](https://img.shields.io/github/tag/VChet/counter.dev-dark.svg?label=version)](https://github.com/VChet/counter.dev-dark/tags)
-[![build](https://github.com/VChet/counter.dev-dark/actions/workflows/build.yml/badge.svg)](https://github.com/VChet/counter.dev-dark/actions/workflows/build.yml)
-[![install](https://img.shields.io/badge/Install%20with-Stylus-00adad.svg)](https://github.com/VChet/counter.dev-dark/raw/master/src/counter.dev-dark.user.css)
+[![version][version-img]][version-href]
+[![build-status][build-img]][build-href]
+![prs-welcome][prs-welcome-img]
+[![install][install-img]][install-href]
 
 ## Preview
 
@@ -11,14 +12,10 @@
 ## Installation
 
 1. Install Stylus/Cascadea (Safari)
-   - [![Chrome](https://github.com/alrra/browser-logos/raw/master/src/chrome/chrome_16x16.png) Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-   - [![Firefox](https://github.com/alrra/browser-logos/raw/master/src/firefox/firefox_16x16.png) Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-   - [![Safari](https://github.com/alrra/browser-logos/raw/master/src/safari/safari_16x16.png) Safari](https://cascadea.app/)
-1. [Install UserCSS](https://github.com/VChet/coinkeeper-dark/raw/master/src/coinkeeper-dark.user.css)
-
-## Contribute
-
-Anyone and everyone is welcome to [contribute](https://github.com/VChet/counter.dev-dark/pulls) and report any [issues](https://github.com/VChet/counter.dev-dark/issues).
+   - [![Chrome][chrome-img] Chrome][chrome-href]
+   - [![Firefox][firefox-img] Firefox][firefox-href]
+   - [![Safari][safari-img] Safari][safari-href]
+1. [Install UserCSS][install-href]
 
 ## Development
 
@@ -31,3 +28,19 @@ Anyone and everyone is welcome to [contribute](https://github.com/VChet/counter.
 1. Make additional changes in [main style](./src/counter.dev-dark.user.css) if needed
 1. Commit and push your changes
 1. Make a pull request
+
+<!-- Badges -->
+[version-img]: https://img.shields.io/github/tag/VChet/counter.dev-dark?label=version&style=flat-square
+[version-href]: https://github.com/VChet/counter.dev-dark/tags
+[build-img]: https://img.shields.io/github/actions/workflow/status/VChet/counter.dev-dark/.github/workflows/build.yaml?style=flat-square
+[build-href]: https://github.com/VChet/counter.dev-dark/actions/workflows/build.yaml
+[prs-welcome-img]: https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square
+[install-img]: https://img.shields.io/badge/Install%20with-Stylus-00adad?style=flat-square
+[install-href]: https://github.com/VChet/counter.dev-dark/raw/master/src/counter.dev-dark.user.css
+<!-- Links -->
+[chrome-img]: https://github.com/alrra/browser-logos/raw/master/src/chrome/chrome_16x16.png
+[chrome-href]: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
+[firefox-img]: https://github.com/alrra/browser-logos/raw/master/src/firefox/firefox_16x16.png
+[firefox-href]: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
+[safari-img]: https://github.com/alrra/browser-logos/raw/master/src/safari/safari_16x16.png
+[safari-href]: https://cascadea.app/
