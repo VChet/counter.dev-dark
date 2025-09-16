@@ -56,7 +56,7 @@ const remapOptions = {
 function exit(error) {
   if (error) console.error(error);
   process.exit(error ? 1 : 0);
-};
+}
 
 async function main() {
   let generatedCss = await remapCss(await fetchCss(sources), mappings, remapOptions);
