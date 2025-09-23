@@ -1,0 +1,7 @@
+{
+  "tagPrefix": "",
+  "bumpFiles": [{
+    "filename": "src/counter.dev-dark.user.css",
+    "updater": "src/usercss-updater.js"
+  }]
+}
