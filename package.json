@@ -24,13 +24,13 @@
     "release": "commit-and-tag-version"
   },
   "devDependencies": {
-    "commit-and-tag-version": "^12.6.0",
-    "eslint": "^9.36.0",
+    "commit-and-tag-version": "^12.6.1",
+    "eslint": "^9.39.1",
     "fetch-css": "^4.1.2",
     "neostandard": "^0.12.2",
     "remap-css": "^7.0.5",
-    "stylelint": "^16.24.0",
-    "stylelint-config-standard": "^39.0.0",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard": "^39.0.1",
     "stylelint-prettier": "^5.0.3"
   },
   "pnpm": {
@@ -50,7 +50,8 @@
       "object.values": "npm:@nolyfill/object.values@^1",
       "safe-buffer": "npm:@nolyfill/safe-buffer@^1",
       "string.prototype.matchall": "npm:@nolyfill/string.prototype.matchall@^1",
-      "string.prototype.repeat": "npm:@nolyfill/string.prototype.repeat@^1"
+      "string.prototype.repeat": "npm:@nolyfill/string.prototype.repeat@^1",
+      "typedarray": "npm:@nolyfill/typedarray@^1"
     }
   }
 }
