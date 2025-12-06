@@ -3,7 +3,7 @@ const VERSION_REGEX = /(@version\s+)(\d+\.\d+\.\d+)/;
 export function readVersion(contents) {
   const match = contents.match(VERSION_REGEX);
   if (!match) throw new Error("No @version found in user.css");
-  return match[1];
+  return match[2];
 }
 
 export function writeVersion(contents, version) {

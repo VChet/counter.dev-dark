@@ -1,7 +1,7 @@
 {
   "name": "counter.dev-dark",
   "type": "module",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "Dark theme for counter.dev",
   "author": "VChet",
   "license": "CC-BY-SA-4.0",
@@ -21,7 +21,7 @@
     "lint:css:fix": "npm run lint:css -- --fix",
     "lint:all": "npm run lint:js && npm run lint:css",
     "build": "node src/generate.js",
-    "release": "commit-and-tag-version"
+    "release": "npm run lint:all && commit-and-tag-version"
   },
   "devDependencies": {
     "commit-and-tag-version": "^12.6.1",
