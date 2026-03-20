@@ -2,17 +2,8 @@
   "name": "counter.dev-dark",
   "type": "module",
   "version": "0.4.7",
-  "description": "Dark theme for counter.dev",
-  "author": "VChet",
-  "license": "CC-BY-SA-4.0",
-  "homepage": "https://github.com/VChet/counter.dev-dark#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VChet/counter.dev-dark.git"
-  },
-  "bugs": {
-    "url": "https://github.com/VChet/counter.dev-dark/issues"
-  },
+  "private": true,
+  "packageManager": "pnpm@10.32.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint:js": "eslint .",
@@ -24,14 +15,14 @@
     "release": "npm run lint:all && commit-and-tag-version"
   },
   "devDependencies": {
-    "commit-and-tag-version": "^12.6.1",
-    "eslint": "^9.39.1",
-    "fetch-css": "^4.1.2",
-    "neostandard": "^0.12.2",
-    "remap-css": "^7.0.5",
-    "stylelint": "^16.26.1",
-    "stylelint-config-standard": "^39.0.1",
-    "stylelint-prettier": "^5.0.3"
+    "@stylistic/stylelint-config": "^4.0.0",
+    "commit-and-tag-version": "^12.7.1",
+    "eslint": "~9.39.4",
+    "fetch-css": "^4.1.3",
+    "neostandard": "^0.13.0",
+    "remap-css": "^7.0.6",
+    "stylelint": "^17.5.0",
+    "stylelint-config-standard": "^40.0.0"
   },
   "pnpm": {
     "overrides": {
@@ -44,6 +35,7 @@
       "hasown": "npm:@nolyfill/hasown@^1",
       "is-core-module": "npm:@nolyfill/is-core-module@^1",
       "isarray": "npm:@nolyfill/isarray@^1",
+      "object-keys": "npm:@nolyfill/object-keys@^1",
       "object.assign": "npm:@nolyfill/object.assign@^1",
       "object.entries": "npm:@nolyfill/object.entries@^1",
       "object.fromentries": "npm:@nolyfill/object.fromentries@^1",

@@ -97,8 +97,7 @@
     border-right-color: var(--gray-dark);
     background-color: var(--accent);
   }
-  .hour-item,
-  .metrics-three-data-content-item {
+  .hour-item, .metrics-three-data-content-item {
     box-shadow: 0 1px 0 var(--gray-light);
   }
   @media (max-width: 1110px) {
@@ -110,8 +109,7 @@
     color: var(--text);
     background-color: var(--gray-dark);
   }
-  [tooltip]:not([flow])::before,
-  [tooltip][flow^="up"]::before {
+  [tooltip]:not([flow])::before, [tooltip][flow^="up"]::before {
     border-top-color: var(--gray-dark);
   }
   [tooltip][flow^="down"]::before {
@@ -141,13 +139,10 @@
   .markdown-body .pl-smi {
     color: var(--light);
   }
-  .markdown-body img,
-  .markdown-body table tr {
+  .markdown-body img, .markdown-body table tr {
     background-color: var(--gray-dark);
   }
-  .markdown-body .blob-code-inner,
-  body,
-  html {
+  .markdown-body .blob-code-inner, body, html {
     color: var(--light);
   }
   .white {
@@ -171,15 +166,11 @@
   ::selection {
     background-color: var(--gray);
   }
-  .btn-primary,
-  .btn-primary:active,
-  .btn-primary:hover {
+  .btn-primary, .btn-primary:active, .btn-primary:hover {
     color: var(--black);
   }
   .btn-secondary {
-    background:
-      linear-gradient(var(--gray-dark), var(--gray-dark)) padding-box,
-      linear-gradient(123.18deg, #0ff 0%, #147efb 48.17%) border-box;
+    background: linear-gradient(var(--gray-dark), var(--gray-dark)) padding-box, linear-gradient(123.18deg, #0ff 0%, #147efb 48.17%) border-box;
   }
   .btn-white {
     background-color: var(--gray-dark);
@@ -214,8 +205,7 @@
   select:hover {
     border-color: var(--gray);
   }
-  .responsive-tabs-menu a,
-  .tabs-menu a {
+  .responsive-tabs-menu a, .tabs-menu a {
     color: var(--text);
   }
   .responsive-tabs-menu .active,
@@ -242,8 +232,7 @@
   .profile-guest {
     box-shadow: -1px 0 0 var(--gray-light);
   }
-  .dropdown-content,
-  .profile-user {
+  .dropdown-content, .profile-user {
     background-color: var(--gray-dark);
   }
   .dropdown-content {
@@ -259,8 +248,7 @@
   .hamburger-content {
     background-color: var(--gray-dark);
   }
-  .owl-theme .owl-nav [class*="owl-"],
-  .owl-theme .owl-nav [class*="owl-"]:hover {
+  .owl-theme .owl-nav [class*="owl-"], .owl-theme .owl-nav [class*="owl-"]:hover {
     color: var(--black);
   }
   .owl-theme .owl-dots .owl-dot span {
@@ -292,8 +280,7 @@
   #modal-pwyw .plans label {
     color: var(--text);
   }
-  .modal,
-  .modal-spinner > div {
+  .modal, .modal-spinner > div {
     background-color: var(--gray-dark);
   }
   /* end remap-css rules */
