@@ -18,9 +18,9 @@ const MAPPINGS = {
   "color: #fff": "color: var(--black)",
   "color: #616161": "color: var(--text)",
   "color: rgba(0,0,0,.65)": "color: var(--text)",
-  "color: #000": "color: var(--light)",
   "color: #121212": "color: var(--light)",
   "color: #24292e": "color: var(--light)",
+  "color: rgba(0,0,0,1)": "color: var(--white)",
   // Borders
   "$border: #fff": "var(--gray-dark)",
   "$border: #ccc": "var(--gray)",

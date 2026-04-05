@@ -18,6 +18,7 @@
     --gray-tp: #22222280;
     --text: #959595;
     --light: #bbb;
+    --white: #fff;
     --accent: #147efb;
   }
   body {
@@ -148,10 +149,18 @@
   .markdown-body .blob-code-inner {
     color: var(--light);
   }
+  #modal-pwyw .highlight + div + div label,
+  #modal-pwyw .highlight + div label,
+  #modal-pwyw .highlight label {
+    color: var(--white) !important;
+  }
   #modal-pwyw .highlight,
   #modal-pwyw .highlight + div,
   #modal-pwyw .highlight + div + div {
     background-color: var(--gray);
+  }
+  #modal-pwyw .hilighted {
+    color: var(--white);
   }
   #modal-pwyw .plans label {
     color: var(--text);
