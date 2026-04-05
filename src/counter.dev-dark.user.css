@@ -61,6 +61,9 @@
     filter: invert(1) brightness(80%);
   }
   /* begin remap-css rules */
+  .modal, .modal-spinner > div {
+    background-color: var(--gray-dark);
+  }
   .blog-article-content-info {
     box-shadow: 0 -1px 0 var(--gray-light);
   }
@@ -142,7 +145,18 @@
   .markdown-body img, .markdown-body table tr {
     background-color: var(--gray-dark);
   }
-  .markdown-body .blob-code-inner, body, html {
+  .markdown-body .blob-code-inner {
+    color: var(--light);
+  }
+  #modal-pwyw .highlight,
+  #modal-pwyw .highlight + div,
+  #modal-pwyw .highlight + div + div {
+    background-color: var(--gray);
+  }
+  #modal-pwyw .plans label {
+    color: var(--text);
+  }
+  body, html {
     color: var(--light);
   }
   .white {
@@ -271,17 +285,6 @@
   }
   .welcome {
     background: linear-gradient(90deg, var(--gray-dark) 50%, #147efb 50%);
-  }
-  #modal-pwyw .highlight,
-  #modal-pwyw .highlight + div,
-  #modal-pwyw .highlight + div + div {
-    background-color: var(--gray);
-  }
-  #modal-pwyw .plans label {
-    color: var(--text);
-  }
-  .modal, .modal-spinner > div {
-    background-color: var(--gray-dark);
   }
   /* end remap-css rules */
 }
