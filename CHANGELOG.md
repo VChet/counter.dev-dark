@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 0.4.8 (2026-04-05)
+
+
+### Features
+
+* **mappings:** color `#modal-pwyw .highlight` ([cac3ffb](https://github.com/VChet/counter.dev-dark/commit/cac3ffbd9c5e56463c9aaf72cbceddef44223623))
+
 ## 0.4.7 (2025-12-06)
 
 
