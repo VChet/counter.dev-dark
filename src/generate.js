@@ -28,9 +28,7 @@ const MAPPINGS = {
   // Box-shadow
   "$box-shadow: #e0e0e0": "var(--gray-light)",
   "$box-shadow: #e7f6ff": "var(--gray-light)",
-  "$box-shadow: #b1e2ff": "var(--gray-light)",
-  "$box-shadow: rgba(0,0,0,.04)": "var(--gray)",
-  "$box-shadow: rgba(0,0,0,.03)": "var(--gray-tp)"
+  "$box-shadow: #b1e2ff": "var(--gray-light)"
 };
 
 const SOURCES = [
