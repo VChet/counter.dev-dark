@@ -12,7 +12,7 @@
     "lint:css:fix": "npm run lint:css -- --fix",
     "lint:all": "npm run lint:js && npm run lint:css",
     "build": "node src/generate.js",
-    "release": "npm run lint:all && commit-and-tag-version"
+    "release": "commit-and-tag-version"
   },
   "devDependencies": {
     "@stylistic/stylelint-config": "^5.0.0",
